@@ -1,3 +1,3 @@
-import { demoStr1 } from "../libs/lib1.ts";
+import * as test from "https://raw.githubusercontent.com/KaiTwiggy/deno-talk/master/libs/lib1.ts";
 
-console.log(demoStr1);
+console.log(test.demoStr2);
